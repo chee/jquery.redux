@@ -7,7 +7,7 @@
 ### setup
 
 ```html
-<script src="https://git.snoot.club/chee/jquery.redux/blob/jquery.redux.min.js">
+<script src="https://git.snoot.club/chee/jquery.redux/raw/master/jquery.redux.min.js">
 ```
 
 ### set-reducer
