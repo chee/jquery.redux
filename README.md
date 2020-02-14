@@ -2,6 +2,8 @@
 
 # jquery.redux
 
+`$element` can have little a reducer, as a treat
+
 ## usage
 
 ### setup
