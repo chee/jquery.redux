@@ -6,7 +6,7 @@
             return this.data( "state" );
         }
 
-        if (action == "set-reducer" ) {
+        if ( action == "set-reducer" ) {
             this.data( "reducer", options.reducer );
             this.data(
                 "state",
@@ -14,12 +14,12 @@
                     type: "@jQuery/init"
                 })
             );
-		  return this;
+            return this;
         }
 
         if ( action == "dispatch" ) {
             this.data( "state", this.data( "reducer" )( this.data( "state" ), options.action ) );
-		  return this;
+            return this;
         }
     }
 })( jQuery, ( eval, eval )( "this" ), void undefined );

@@ -19,9 +19,9 @@ Note! Make sure to include it _after_ jquery!!
 ```js
 var initialState = 0;
 
-function reducer(state, action) {
+function reducer( state, action ) {
   state = state || initialState
-  switch(action.type) {
+  switch( action.type ) {
     case "+":
       return state + 1
     case "-":
