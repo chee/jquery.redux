@@ -37,7 +37,7 @@ $( "#my-element" ).redux( "set-reducer", { reducer } );
 ```
 
 ### dispatch
-```
+```js
 $("#my-element")
     .redux("dispatch", {
 	    action: {
