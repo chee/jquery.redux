@@ -9,7 +9,7 @@
 ### setup
 
 ```html
-<script src="https://git.snoot.club/chee/jquery.redux/raw/master/jquery.redux.min.js">
+<script src="https://github.com/chee/jquery.redux/raw/master/jquery.redux.min.js">
 ```
 
 Note! Make sure to include it _after_ jquery!!
